@@ -1,0 +1,107 @@
+[
+  {
+    "model": "orders.order",
+    "pk": 1,
+    "fields": {
+      "first_name": "First Name #1",
+      "last_name": "Last Name #1",
+      "email": "Email #1",
+      "created_at": "2020-1-1",
+      "updated_at": "2020-1-1"
+    }
+  },
+  {
+    "model": "orders.order",
+    "pk": 2,
+    "fields": {
+      "first_name": "First Name #2",
+      "last_name": "Last Name #2",
+      "email": "Email #2",
+      "created_at": "2020-2-1",
+      "updated_at": "2020-2-1"
+    }
+  },
+  {
+    "model": "orders.order",
+    "pk": 3,
+    "fields": {
+      "first_name": "First Name #3",
+      "last_name": "Last Name #3",
+      "email": "Email #3",
+      "created_at": "2020-3-1",
+      "updated_at": "2020-3-1"
+    }
+  },
+  {
+    "model": "orders.orderitem",
+    "pk": 1,
+    "fields": {
+      "order_id": 1,
+      "product_title": "Title #1",
+      "price": 10,
+      "quantity": 2,
+      "created_at": "2020-1-1",
+      "updated_at": "2020-1-1"
+    }
+  },
+  {
+    "model": "orders.orderitem",
+    "pk": 2,
+    "fields": {
+      "order_id": 1,
+      "product_title": "Title #2",
+      "price": 20,
+      "quantity": 3,
+      "created_at": "2020-1-1",
+      "updated_at": "2020-1-1"
+    }
+  },
+  {
+    "model": "orders.orderitem",
+    "pk": 3,
+    "fields": {
+      "order_id": 2,
+      "product_title": "Title #3",
+      "price": 30,
+      "quantity": 3,
+      "created_at": "2020-2-1",
+      "updated_at": "2020-2-1"
+    }
+  },
+  {
+    "model": "orders.orderitem",
+    "pk": 4,
+    "fields": {
+      "order_id": 2,
+      "product_title": "Title #4",
+      "price": 40,
+      "quantity": 4,
+      "created_at": "2020-2-1",
+      "updated_at": "2020-2-1"
+    }
+  },
+  {
+    "model": "orders.orderitem",
+    "pk": 5,
+    "fields": {
+      "order_id": 3,
+      "product_title": "Title #5",
+      "price": 50,
+      "quantity": 5,
+      "created_at": "2020-3-1",
+      "updated_at": "2020-3-1"
+    }
+  },
+  {
+    "model": "orders.orderitem",
+    "pk": 6,
+    "fields": {
+      "order_id": 3,
+      "product_title": "Title #6",
+      "price": 60,
+      "quantity": 6,
+      "created_at": "2020-3-1",
+      "updated_at": "2020-3-1"
+    }
+  }
+]
